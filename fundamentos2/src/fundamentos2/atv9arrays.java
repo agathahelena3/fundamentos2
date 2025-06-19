@@ -1,0 +1,43 @@
+package fundamentos2;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class atv9arrays {
+
+	public static void main(String[] args) {
+	int numeros[]= {2,5,4,9,20};
+	//array definido pelo usúario
+	int num2[]= new int[5];
+	//array a definir os valores
+	double num3[]= {3.4,6.9};
+	//printar valor
+	numeros[3]=91;
+	
+	Scanner sc = new Scanner(System.in);
+	int arraya[]= new int [4];
+	int arrayb[]= new int [4];
+	int arrayc[]= new int [4];
+	int arrayd[]= new int [4];
+	
+	for (int i=0; i <= arraya.length;i++) {
+		System.out.printf("Digite o %d do Array A: ", i+1);
+		arraya[i]=sc.nextInt();
+		System.out.printf("Digite o %d do Array B: ", i+1);
+		arrayb[i]=sc.nextInt();
+		System.out.printf("Digite o %d do Array C: ", i+1);
+		arrayc[i]=sc.nextInt();
+		System.out.printf("Digite o %d do Array D: ", i+1);
+		arrayd[i]=sc.nextInt();
+		
+		System.out.println(Arrays.toString(arraya));
+		System.out.println(Arrays.toString(arrayb));
+		System.out.println(Arrays.toString(arrayc));
+		System.out.println(Arrays.toString(arrayd));
+
+		
+	}
+
+	}
+
+}

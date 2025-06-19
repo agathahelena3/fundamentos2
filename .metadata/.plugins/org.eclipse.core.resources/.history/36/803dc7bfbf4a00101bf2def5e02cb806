@@ -1,0 +1,22 @@
+package fundamentos2;
+
+public class atv9arrays {
+
+	public static void main(String[] args) {
+	int numeros[]= {2,5,4,9,20};
+	//array definido pelo usúario
+	int num2[]= new int[5];
+	//array a definir os valores
+	double num3[]= {3.4,6.9};
+	System.out.println(numeros [0]);
+	//printar valor
+	numeros[3]=91;
+	
+	
+	int arraya[]= new int [4];
+	int arrayb[]= new int [4];
+	int arrayc[]= new int [4];
+	int arrayd[]= new int [4];
+	}
+
+}

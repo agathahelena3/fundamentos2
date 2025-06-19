@@ -1,0 +1,10 @@
+package fundamentos3;
+
+public class atv1 {
+	public static void main (String[] args) {
+		String str = new String();
+		String texto = "Hello mundo";
+		str = texto.replace("l", "w");
+		System.out.println(str);
+	}
+}
